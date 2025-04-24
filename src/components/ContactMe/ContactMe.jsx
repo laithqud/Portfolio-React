@@ -27,16 +27,16 @@ const ContactMe = () => {
             </div>    
             <div className="contact-me_icon-links">
               <FontAwesomeIcon icon={faEnvelope} size="lg" style={{ color: '#000000' }} />
-              <p className="contact-me_p"><a href="mailto:laithqudahh@gmail.com" className="undrline">laithqudahh@gmail</a></p>
+              <p className="contact-me_p"><a href="mailto:laithqudahh@gmail.com" className="undrline"> laithqudahh@gmail</a></p>
             </div>    
             <div className="contact-me_icon-links">
               <FontAwesomeIcon icon={faMobile} size="lg" style={{ color: '#000000' }} />
-              <p className="contact-me_p"><a href="tel:+00962 798151409" className="undrline">00962 798151409</a></p>
+              <p className="contact-me_p"><a href="tel:+00962 798151409" className="undrline"> 00962 798151409</a></p>
             </div>    
-            <div className="contact-me_icon-links">
+            {/* <div className="contact-me_icon-links">
               <FontAwesomeIcon icon={faGlobe} size="lg" style={{ color: '#000000' }} />
               <p className="contact-me_p"><a href="https://buymeacoffee.com/" className="undrline">BuyMeCoffee</a></p>
-            </div>   
+            </div>    */}
           </div>
 
           <div className="contact-me_div2-item2">

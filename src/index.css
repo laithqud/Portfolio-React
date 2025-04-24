@@ -93,6 +93,7 @@ table {
 }
 body{
     font-family: sans-serif;
+    background-color: grey;
 
 }
 footer{
@@ -215,7 +216,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: grey;
 }
 .block_title{
     font-size: 4em;
@@ -235,7 +236,7 @@ footer{
     border-radius: 12px;
 }
 .circle {
-    background-color: white;
+    background-color:#212020;
     width: 300px;
     height: 300px;
     border: 1px solid #ccc;
@@ -255,10 +256,14 @@ footer{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: white;
+}
+.skills-icons{
+    color: white !important;
 }
 .text {
     font-size: 15px;
-    color: #666;
+    color: #ffffff;
     padding: 10px;
 }
 .projects-container{
@@ -277,6 +282,7 @@ footer{
     height: 300px;
     border: 2px solid darkgray;
     border-radius: 15px;
+    background-color: darkgray;
 }
 .projects-div1{
     display: flex;

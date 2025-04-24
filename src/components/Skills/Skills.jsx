@@ -45,7 +45,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div className="circle" key={index}>
             <div className="icon">
-              <FontAwesomeIcon icon={skill.icon} size="2x" style={{ color: '#000000' }} />
+              <FontAwesomeIcon icon={skill.icon} size="2x" style={{ color: '#000000' }} className='skills-icons' />
             </div>
             <div className="title">{skill.title}</div>
             <div className="text">{skill.text}</div>
